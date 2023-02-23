@@ -1,0 +1,18 @@
+body {
+    background-color: #363636;
+    color: white;
+}
+
+
+.list .item {
+    background-color: #363636;
+    
+}
+
+.list a {
+    color:white;
+}
+
+.list .item:hover {
+    background-color: #242424;
+}

@@ -1,0 +1,33 @@
+{
+    "num" : "2",
+    "0": [{
+        "question" : "Výpočet odporu 2 rezistorů v sériovém řazení",
+        "answers_num" : "2",
+        "answers" : [
+            {
+                "type" : "text",
+                "value" : "R = 1/R1 + 1/R2",
+                "correct" : "false"
+            }, {
+                "type" : "text",
+                "value" : "R = R1 + R2",
+                "correct" : "true"
+            } 
+        ]
+    }], 
+    "1": [{
+        "question": "Výpočet odporu 2 rezistorů v pararelním řazení",
+        "answers_num" : "2",
+        "answers" : [
+            {
+                "type" : "text",
+                "value" : "R = R1*R2/R1+R2",
+                "correct" : "true"
+            }, {
+                "type" : "text",
+                "value" : "R = R1 + R2",
+                "correct" : "false"
+            }
+        ]
+    }]
+}

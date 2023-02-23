@@ -1,0 +1,12 @@
+{
+    "odpor": [{
+
+        "name":"Odpor",
+        "file":"odpor.json"
+    }], 
+    "elektrotechnics": [{
+
+        "name":"Proud",
+        "file":"proud.json"
+    }]
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Montserrat&family=Quicksand:wght@500&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: none;
+    margin-top: 10px;
+    
+}
+
+.list {
+    margin-top: 45px;
+    position: absolute;
+    left:50%;
+    width: 350px;
+    transform: translateX(-50%);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.list .item {
+    font-size: 24px;
+    padding: 10px;
+}
+
+.list a {
+    text-decoration: none;
+}
+
+.question {
+    margin-top: 20px;
+}
+
+.question fieldset {
+    border:none;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.question fieldset legend {
+    font-size: 1.2rem;
+}
+
+.question fieldset input[type="radio"] {
+    margin-top: 20px;
+}
+
+.question fieldset img {
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.question fieldset label {
+    margin-left: 10px;
+}
+
+button {
+    color:white;
+    background-color: royalblue;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(45, 81, 190);
+}
+
+
+
+

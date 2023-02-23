@@ -1,0 +1,12 @@
+{
+    "technology": [{
+
+        "group_name":"Technologie",
+        "group_folder":"technologie"
+    }], 
+    "elektrotechnics": [{
+
+        "group_name":"Elektrotechnika",
+        "group_folder":"elektrotechnika"
+    }]
+}
