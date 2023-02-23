@@ -4,7 +4,8 @@ Quizknown is system that help teachers and students make exams to test their kno
 <b>TODO<b>  
 - [x] core
 - [ ] KaText fully function
-- [ ] dark/ligh mode switch
+- [ ] dark/light mode switch
+- [ ] Control improvement
 
 ## How to use it
 If you want ton deploy this system you need to simply download source and extract to your hosting . You need apache 2  to run this without security issues because htaccess. Head to files to know how to make exercices and groups
