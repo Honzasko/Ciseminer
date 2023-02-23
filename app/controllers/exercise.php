@@ -87,7 +87,7 @@ for($i = 0;$i < intval($exercise['num']);$i++)
         $a = $exercise[$n][0]['answers'][$k];
         if($a['type'] == "text")
         {
-            $answers = $answers."<input type='radio' value='".$k."' name='a".$i."'><label>".$a['value']."</label></input><br>";
+            $answers = $answers."<input type='radio' value='".$k."' name='a".$i."'><label class='render'>".$a['value']."</label></input><br>";
         }
         else if($a['type'] == "image")
         {

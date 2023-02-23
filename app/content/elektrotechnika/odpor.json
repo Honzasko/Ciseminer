@@ -10,7 +10,7 @@
                 "correct" : "false"
             }, {
                 "type" : "text",
-                "value" : "R = R1 + R2",
+                "value" : "\text{R = R1 + R2}",
                 "correct" : "true"
             } 
         ]

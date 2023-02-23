@@ -1,6 +1,11 @@
 # Quizknown
 Quizknown is system that help teachers and students make exams to test their knowledge. Quizknown has own routing system and is near MVC system. I made this system because I want to train for final exams. I hope that any other can use this system so I made this project open source. So everyone can contribute to make it better. 
 
+<b>TODO<b>  
+- [x] core
+- [ ] KaText fully function
+- [ ] dark/ligh mode switch
+
 ## How to use it
 If you want ton deploy this system you need to simply download source and extract to your hosting . You need apache 2  to run this without security issues because htaccess. Head to files to know how to make exercices and groups
 
