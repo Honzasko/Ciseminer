@@ -3,7 +3,7 @@ Quizknown is system that help teachers and students make exams to test their kno
 
 <b>TODO<b>  
 - [x] core
-- [ ] KaText fully function
+- [x] KaTex fully function
 - [ ] dark/light mode switch
 - [ ] Control improvement
 
@@ -66,11 +66,11 @@ Example of exercise json file:
         "answers" : [
             {
                 "type" : "text",
-                "value" : "R = 1/R1 + 1/R2",
+                "value" : "[math]R = \\frac{1}{R_1} + \\frac{1}{R_2}[/math]",
                 "correct" : "false"
             }, {
                 "type" : "text",
-                "value" : "R = R1 + R2",
+                "value" : "[math]R = R1 + R2[/math]",
                 "correct" : "true"
             } 
         ]
@@ -81,11 +81,11 @@ Example of exercise json file:
         "answers" : [
             {
                 "type" : "text",
-                "value" : "R = R1*R2/R1+R2",
+                "value" : "[math]\\frac{R_1 * R_2}{R_1 + R_2}[/math]",
                 "correct" : "true"
             }, {
                 "type" : "text",
-                "value" : "R = R1 + R2",
+                "value" : "[math]R = R1 + R2[/math]",
                 "correct" : "false"
             }
         ]
@@ -101,6 +101,8 @@ properties of answers:
 type - set type of answer(image,text)  
 value - if type is text then it is literall answer,if image then it store url of image,preffered image size is 100x100  
 correct - set if this answer is correct or not(true/false)
+
+If you want to use math,use ``[math]`` to start the KaTex syntax and ``[/math]`` to end the syntax
 
 ### Folder hiearchy 
 / - root of site  

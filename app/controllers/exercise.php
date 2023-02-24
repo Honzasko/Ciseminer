@@ -79,15 +79,20 @@ $questions = "";
 for($i = 0;$i < intval($exercise['num']);$i++)
 {
     $n = strval($i);
-    $question = "<div class='question'><fieldset><legend>".$exercise[$n][0]['question']."</legend>ANSWERS</fieldset></div>";
-
+    $q = $exercise[$n][0]['question'];
+    $q = str_replace("[math]","<span class='render'>",$q);
+    $q = str_replace("[/math]","</span>",$q);
+    $question = "<div class='question'><fieldset><legend>".$q."</legend>ANSWERS</fieldset></div>";
     $answers = "";
     for($k = 0;$k < intval($exercise[$n][0]['answers_num']);$k++)
     {
         $a = $exercise[$n][0]['answers'][$k];
+        $value = htmlspecialchars($a['value']);
+        $value = str_replace("[math]","<span class='render'>",$value);
+        $value = str_replace("[/math]","</span>",$value);
         if($a['type'] == "text")
         {
-            $answers = $answers."<input type='radio' value='".$k."' name='a".$i."'><label class='render'>".$a['value']."</label></input><br>";
+            $answers = $answers."<input type='radio' value='".$k."' name='a".$i."'><label>".$value."</label></input><br>";
         }
         else if($a['type'] == "image")
         {

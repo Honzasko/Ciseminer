@@ -6,11 +6,11 @@
         "answers" : [
             {
                 "type" : "text",
-                "value" : "R = 1/R1 + 1/R2",
+                "value" : "[math]R = \\frac{1}{R_1} + \\frac{1}{R_2}[/math]",
                 "correct" : "false"
             }, {
                 "type" : "text",
-                "value" : "\text{R = R1 + R2}",
+                "value" : "[math]R = R1 + R2[/math]",
                 "correct" : "true"
             } 
         ]
@@ -21,11 +21,11 @@
         "answers" : [
             {
                 "type" : "text",
-                "value" : "R = R1*R2/R1+R2",
+                "value" : "[math]\\frac{R_1 * R_2}{R_1 + R_2}[/math]",
                 "correct" : "true"
             }, {
                 "type" : "text",
-                "value" : "R = R1 + R2",
+                "value" : "[math]R = R1 + R2[/math]",
                 "correct" : "false"
             }
         ]
