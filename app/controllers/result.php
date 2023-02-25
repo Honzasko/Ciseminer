@@ -19,6 +19,7 @@ $object['correct'] = strval($correct);
 $object['n_ans'] = $exercise['num'];
 $percentage =  $correct / intval($exercise['num']);
 $percentage = $percentage * 100;
+$percentage = floor($percentage);
 $object['percentage'] = strval($percentage);
 
 render_template("result.php",$object);

@@ -1,21 +1,40 @@
 {
-    "num" : "2",
+    "num" : "3",
     "0": [{
-        "question" : "Výpočet odporu 2 rezistorů v sériovém řazení",
+        "question" : "Čím se značí odpor ",
+        "answers_num" : "3",
+        "answers" : [
+            {
+                "type" : "text",
+                "value" : "[math]R[/math]",
+                "correct" : "true"
+            }, {
+                "type" : "text",
+                "value" : "[math]U[/math]",
+                "correct" : "false"
+            } , {
+                "type" : "text",
+                "value" : "[math]I[/math]",
+                "correct" : "false"
+            }
+        ]
+    }], 
+    "1": [{
+        "question": "Výpočet odporu 2 rezistorů v pararelním řazení",
         "answers_num" : "2",
         "answers" : [
             {
                 "type" : "text",
-                "value" : "[math]R = \\frac{1}{R_1} + \\frac{1}{R_2}[/math]",
-                "correct" : "false"
+                "value" : "[math]\\frac{R_1 * R_2}{R_1 + R_2}[/math]",
+                "correct" : "true"
             }, {
                 "type" : "text",
                 "value" : "[math]R = R1 + R2[/math]",
-                "correct" : "true"
-            } 
+                "correct" : "false"
+            }
         ]
-    }], 
-    "1": [{
+    }],
+    "2": [{
         "question": "Výpočet odporu 2 rezistorů v pararelním řazení",
         "answers_num" : "2",
         "answers" : [
