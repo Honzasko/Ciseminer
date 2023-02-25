@@ -39,6 +39,7 @@ function render_template($template,$object)
     }else 
     {
         setcookie("quizknow_theme","dark");
+        $object['theme'] = "dark";
     }
 
     $lang_json = stripslashes(loadJson());
