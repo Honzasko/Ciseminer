@@ -1,0 +1,22 @@
+body {
+    background-color: #e8e8e8;
+    color: black;
+}
+
+
+.list .item {
+    background-color: #e8e8e8;
+    
+}
+
+.list a {
+    color:black;
+}
+
+.list .item:hover {
+    background-color: #9d9d9e;
+}
+
+.controls img:hover {
+    filter: brightness(1) invert(0.30);
+}

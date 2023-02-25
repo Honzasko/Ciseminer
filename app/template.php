@@ -25,6 +25,22 @@ function loadJson()
 function render_template($template,$object)
 {
 
+    if(isset($_COOKIE['quizknow_theme']))
+    {
+        $theme = preg_replace('/[^A-Za-z0-9\-]/', '', $_COOKIE['quizknow_theme']); 
+        if($theme == "dark")
+        {
+            $object['theme'] = "dark";
+        }
+        else {
+            $object['theme'] = "white";
+        }
+
+    }else 
+    {
+        setcookie("quizknow_theme","dark");
+    }
+
     $lang_json = stripslashes(loadJson());
     $lang_json = trim($lang_json);
     $lang = json_decode($lang_json, true);

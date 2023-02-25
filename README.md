@@ -4,8 +4,10 @@ Quizknown is system that help teachers and students make exams to test their kno
 <b>TODO<b>  
 - [x] core
 - [x] KaTex fully function
-- [ ] dark/light mode switch
-- [ ] Control improvement
+- [x] dark/light mode switch
+- [x] Control improvement
+
+Send me dm on discord to Honzasko#1552 if you want to suggest ideas. After I gather enough ideas I will start working on version 2 and it will be reworked to Laravel framework
 
 ## How to use it
 If you want ton deploy this system you need to simply download source and extract to your hosting . You need apache 2  to run this without security issues because htaccess. Head to files to know how to make exercices and groups
